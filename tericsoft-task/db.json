@@ -1,0 +1,116 @@
+{
+  "cycling": {
+    "options": [
+      "BMX",
+      "Moutain",
+      "Road",
+      "Track"
+    ],
+    "data": {
+      "BMX": [
+        {
+          "id": 1,
+          "day": "1",
+          "image": "",
+          "duration": "5:12",
+          "level": "Heats",
+          "footage": "Highlights"
+        },
+        {
+          "id": 2,
+          "day": "2",
+          "image": "",
+          "duration": "5:12",
+          "level": "Heats",
+          "footage": "MIXED"
+        },
+        {
+          "id": 3,
+          "day": "3",
+          "image": "",
+          "duration": "5:12",
+          "level": "SEMI'S",
+          "footage": "MIXED"
+        }
+      ],
+      "Mountain": [
+        {
+          "id": 1,
+          "day": "1",
+          "image": "",
+          "duration": "5:12",
+          "level": "Heats",
+          "footage": "Highlights"
+        },
+        {
+          "id": 2,
+          "day": "2",
+          "image": "",
+          "duration": "5:12",
+          "level": "Heats",
+          "footage": "MIXED"
+        },
+        {
+          "id": 3,
+          "day": "3",
+          "image": "",
+          "duration": "5:12",
+          "level": "SEMI'S",
+          "footage": "MIXED"
+        }
+      ],
+      "Road": [
+        {
+          "id": 1,
+          "day": "1",
+          "image": "",
+          "duration": "5:12",
+          "level": "Heats",
+          "footage": "Highlights"
+        },
+        {
+          "id": 2,
+          "day": "2",
+          "image": "",
+          "duration": "5:12",
+          "level": "Heats",
+          "footage": "MIXED"
+        },
+        {
+          "id": 3,
+          "day": "3",
+          "image": "",
+          "duration": "5:12",
+          "level": "SEMI'S",
+          "footage": "MIXED"
+        }
+      ],
+      "Track": [
+        {
+          "id": 1,
+          "day": "1",
+          "image": "",
+          "duration": "5:12",
+          "level": "Heats",
+          "footage": "Highlights"
+        },
+        {
+          "id": 2,
+          "day": "2",
+          "image": "",
+          "duration": "5:12",
+          "level": "Heats",
+          "footage": "MIXED"
+        },
+        {
+          "id": 3,
+          "day": "3",
+          "image": "",
+          "duration": "5:12",
+          "level": "SEMI'S",
+          "footage": "MIXED"
+        }
+      ]
+    }
+  }
+}
