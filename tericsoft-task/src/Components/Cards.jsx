@@ -13,7 +13,7 @@ export const Cards = ({ tabName }) => {
         <Text textAlign="left" fontSize="20px" pb="10px">Highlights</Text>
         <Flex gap="20px">
           {tabNameData?.map((ele, i) => (
-            <SingleCard tabNameData={ele} tabName={tabName} />
+            <SingleCard tabNameData={ele} key={i} tabName={tabName} />
           ))}
         </Flex>
       </Container>
