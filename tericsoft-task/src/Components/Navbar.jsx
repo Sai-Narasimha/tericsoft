@@ -1,12 +1,17 @@
 import { Box, Container, Flex, Text } from "@chakra-ui/react";
-import React from "react";
-import { Link } from "react-router-dom";
-
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import "../App.css";
 export const Navbar = () => {
+  const location = useLocation();
+
   return (
     <Container maxWidth={"100%"} mb="10px">
       <Flex w="80%" justifyContent="space-between" m="auto">
-        <Box>
+        <Box
+          className={location.pathname === "/featured" ? "featured" : null}
+          w="105px"
+        >
           <Text fontSize="30px">
             <i class="fa-sharp fa-solid fa-star"></i>
           </Text>
@@ -14,7 +19,10 @@ export const Navbar = () => {
             <Text>Featured</Text>
           </Link>
         </Box>
-        <Box>
+        <Box
+          className={location.pathname === "/armoury" ? "armoury" : null}
+          w="105px"
+        >
           <Text fontSize="30px">
             <i class="fa-solid fa-person-rifle"></i>
           </Text>
@@ -22,7 +30,10 @@ export const Navbar = () => {
             <Text>Armoury</Text>
           </Link>
         </Box>
-        <Box>
+        <Box
+          className={location.pathname === "/aquatics" ? "aquatics" : null}
+          w="105px"
+        >
           <Text fontSize="30px">
             <i class="fa-solid fa-person-swimming"></i>
           </Text>
@@ -30,7 +41,7 @@ export const Navbar = () => {
             <Text>Aquatics</Text>
           </Link>
         </Box>
-        <Box>
+        <Box className={location.pathname === "/" ? "cycling" : null} w="105px">
           <Text fontSize="30px">
             <i class="fa-sharp fa-solid fa-person-biking"></i>
           </Text>
@@ -38,7 +49,10 @@ export const Navbar = () => {
             <Text>Cycling</Text>
           </Link>
         </Box>
-        <Box>
+        <Box
+          className={location.pathname === "/equestrain" ? "equestrain" : null}
+          w="105px"
+        >
           <Text fontSize="30px">
             <i class="fa-solid fa-horse"></i>
           </Text>
@@ -46,7 +60,10 @@ export const Navbar = () => {
             <Text>Equestrain</Text>
           </Link>
         </Box>
-        <Box>
+        <Box
+          className={location.pathname === "/extreme" ? "extreme" : null}
+          w="105px"
+        >
           <Text fontSize="30px">
             <i class="fa-solid fa-hill-rockslide"></i>
           </Text>
@@ -54,15 +71,21 @@ export const Navbar = () => {
             <Text>Extreme</Text>
           </Link>
         </Box>
-        <Box>
+        <Box
+          className={location.pathname === "/golf" ? "golf" : null}
+          w="105px"
+        >
           <Text fontSize="30px">
             <i class="fa-solid fa-golf-ball-tee"></i>
           </Text>
-          <Link to="golf">
+          <Link to="/golf">
             <Text>Golf</Text>
           </Link>
         </Box>
-        <Box>
+        <Box
+          className={location.pathname === "/gymnastics" ? "gymnastics" : null}
+          w="105px"
+        >
           <Text fontSize="30px">
             <i class="fa-solid fa-dumbbell"></i>
           </Text>
@@ -70,7 +93,10 @@ export const Navbar = () => {
             <Text>Gymnastics</Text>
           </Link>
         </Box>
-        <Box>
+        <Box
+          className={location.pathname === "/lakeSea" ? "lakeSea" : null}
+          w="105px"
+        >
           <Text fontSize="30px">
             <i class="fa-solid fa-water"></i>
           </Text>
