@@ -2,7 +2,7 @@
   "cycling": {
     "options": [
       "BMX",
-      "Moutain",
+      "Mountain",
       "Road",
       "Track"
     ],
@@ -11,7 +11,7 @@
         {
           "id": 1,
           "day": "1",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1627403516444-da5d6efa7a8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym14JTIwYmlrZXxlbnwwfHwwfHw%3D&w=1000&q=80",
           "duration": "5:12",
           "level": "Heats",
           "footage": "Highlights"
@@ -19,7 +19,7 @@
         {
           "id": 2,
           "day": "2",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1627403516444-da5d6efa7a8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym14JTIwYmlrZXxlbnwwfHwwfHw%3D&w=1000&q=80",
           "duration": "5:12",
           "level": "Heats",
           "footage": "MIXED"
@@ -27,7 +27,7 @@
         {
           "id": 3,
           "day": "3",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1627403516444-da5d6efa7a8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym14JTIwYmlrZXxlbnwwfHwwfHw%3D&w=1000&q=80",
           "duration": "5:12",
           "level": "SEMI'S",
           "footage": "MIXED"
@@ -37,7 +37,7 @@
         {
           "id": 1,
           "day": "1",
-          "image": "",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/MtnBiking_SedonaMag.jpg",
           "duration": "5:12",
           "level": "Heats",
           "footage": "Highlights"
@@ -45,7 +45,7 @@
         {
           "id": 2,
           "day": "2",
-          "image": "",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/MtnBiking_SedonaMag.jpg",
           "duration": "5:12",
           "level": "Heats",
           "footage": "MIXED"
@@ -53,7 +53,7 @@
         {
           "id": 3,
           "day": "3",
-          "image": "",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/MtnBiking_SedonaMag.jpg",
           "duration": "5:12",
           "level": "SEMI'S",
           "footage": "MIXED"
@@ -63,7 +63,7 @@
         {
           "id": 1,
           "day": "1",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1603879558815-569898cdbcb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGN5Y2xpc3R8ZW58MHx8MHx8&w=1000&q=80",
           "duration": "5:12",
           "level": "Heats",
           "footage": "Highlights"
@@ -71,7 +71,7 @@
         {
           "id": 2,
           "day": "2",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1603879558815-569898cdbcb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGN5Y2xpc3R8ZW58MHx8MHx8&w=1000&q=80",
           "duration": "5:12",
           "level": "Heats",
           "footage": "MIXED"
@@ -79,7 +79,7 @@
         {
           "id": 3,
           "day": "3",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1603879558815-569898cdbcb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGN5Y2xpc3R8ZW58MHx8MHx8&w=1000&q=80",
           "duration": "5:12",
           "level": "SEMI'S",
           "footage": "MIXED"
@@ -89,7 +89,7 @@
         {
           "id": 1,
           "day": "1",
-          "image": "",
+          "image": "https://media.istockphoto.com/photos/high-angle-view-of-rider-riding-bicycle-picture-id129179516?b=1&k=20&m=129179516&s=170667a&w=0&h=7b2OeqfMoF2wYqJhbySNYxqELCMGNwNHjvPmZks_HsE=",
           "duration": "5:12",
           "level": "Heats",
           "footage": "Highlights"
@@ -97,7 +97,7 @@
         {
           "id": 2,
           "day": "2",
-          "image": "",
+          "image": "https://media.istockphoto.com/photos/high-angle-view-of-rider-riding-bicycle-picture-id129179516?b=1&k=20&m=129179516&s=170667a&w=0&h=7b2OeqfMoF2wYqJhbySNYxqELCMGNwNHjvPmZks_HsE=",
           "duration": "5:12",
           "level": "Heats",
           "footage": "MIXED"
@@ -105,7 +105,7 @@
         {
           "id": 3,
           "day": "3",
-          "image": "",
+          "image": "https://media.istockphoto.com/photos/high-angle-view-of-rider-riding-bicycle-picture-id129179516?b=1&k=20&m=129179516&s=170667a&w=0&h=7b2OeqfMoF2wYqJhbySNYxqELCMGNwNHjvPmZks_HsE=",
           "duration": "5:12",
           "level": "SEMI'S",
           "footage": "MIXED"
