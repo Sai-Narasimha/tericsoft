@@ -1,19 +1,21 @@
-import { Box } from "@mui/material";
+import { Box, Container, Flex } from "@chakra-ui/react";
 import React from "react";
+import { useSelector } from "react-redux";
+import { SingleCard } from "./SingleCard";
 
-export const Cards = ({ data }) => {
+export const Cards = ({ tabName }) => {
+  const tab = useSelector((state) => state.data);
+  const tabNameData = tab?.data?.[tabName];
+ 
   return (
     <>
-      {data.map((ele) => (
-        <Box>
-          {ele.map((item) => (
-            <Box>
-                <img src={ele.image} alt=""/>
-               <h3>{ele.day}</h3>
-            </Box>
+      <Container maxW="100%" border="1px solid green">
+        <Flex gap="20px">
+          {tabNameData?.map((ele, i) => (
+            <SingleCard tabNameData={ele} tabName={tabName} />
           ))}
-        </Box>
-      ))}
+        </Flex>
+      </Container>
     </>
   );
 };
