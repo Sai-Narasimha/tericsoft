@@ -4,13 +4,8 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <Container maxWidth={"100%"} border="1px solid red">
-      <Flex
-        w="80%"
-        border="1px solid red"
-        justifyContent="space-between"
-        m="auto"
-      >
+    <Container maxWidth={"100%"} mb="10px">
+      <Flex w="80%" justifyContent="space-between" m="auto">
         <Box>
           <Text fontSize="30px">
             <i class="fa-sharp fa-solid fa-star"></i>

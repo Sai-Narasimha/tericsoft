@@ -14,7 +14,7 @@ export const Cycling = () => {
   console.log(data);
   return (
     <>
-      <Container border="1px solid red" maxW="80%" h="90vh"  bg="grey">
+      <Container maxW="80%" h="85vh"  bg="grey" >
         <OptionsTabs data={data} />
       </Container>
     </>

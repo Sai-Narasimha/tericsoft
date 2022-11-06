@@ -14,7 +14,7 @@ export const OptionsTabs = ({ data }) => {
   return (
     <>
       <Tabs w="80%" m="auto">
-        <TabList border="1px solid red">
+        <TabList >
           {options?.map((ele, i) => (
             <Tab key={i} onClick={() => setTabName(ele)} m="auto">
               {ele}
